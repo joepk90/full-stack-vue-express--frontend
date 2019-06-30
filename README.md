@@ -1,5 +1,5 @@
 # this repository contains the front end logic to for:
-https://github.com/joepk90/full-stack-vue-express--server/tree/master
+https://github.com/joepk90/full-stack-vue-express--server
 
 # client
 

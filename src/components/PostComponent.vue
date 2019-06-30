@@ -21,12 +21,12 @@
            v-bind:index="index"
            v-bind:key="post._id"
       >
-
+        
         {{`${post.createdAt.getDate()}/${post.createdAt.getMonth()}/${post.createdAt.getFullYear()}`}}
 
         <p class="text">{{post.text}}</p>
 
-        <!--<button v-on:click="deletePost(post._id)">Delete Post</button>-->
+        <button v-on:click="deletePost(post._id)">Delete Post</button>
 
       </div>
     </div>
